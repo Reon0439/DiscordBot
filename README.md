@@ -1,8 +1,4 @@
-# こんにちは
-##　こんばんわ
-
-よろしくお願いいたします。
-
-- 
--
--
+functon collectMassage() {
+    messages = channel.messages.fetch;
+    return messages;
+}
